@@ -15,7 +15,7 @@ function executeFirst() {
     });
 
     // The count increases with each separate file that imports and executes this function
-    return () => console.log(`hello world ${count++}`);
+    return () => console.log(`hello world ${++count}`);
 }
 
 // The export of this file can be accessed in the other files even after this file has run to completion
